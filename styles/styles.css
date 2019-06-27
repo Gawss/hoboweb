@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Handform;
+    src: url("../resources/fonts/handform.ttf");
+}
+
+@font-face {
+    font-family: Ziperhead;
+    src: url("../resources/fonts/ziperhead.otf");
+}
+
+body{
+    margin: 0px;
+}
+.Hobo-Content{
+    max-width: calc(100%);
+    height: fit-content;
+}
+
+.Hobo-First-Section{    
+    height: 40vh;
+    background-image: url("../resources/images/First-Section-Background.png");
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.Hobo-First-Section--ImgTitle{
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: auto;
+    z-index: 2;
+}
+
+.Hobo-First-Section--ImgChicken{
+    position: absolute;
+    top: 32vh;
+    left: -30px;
+    z-index: 3;
+    width: auto;
+    height: auto;
+}
+
+.Hobo-First-Section--ImgHobo{
+    position: absolute;
+    top: 37vh;
+    left: 26vw;
+    z-index: 3;
+    width: auto;
+    height: auto;
+}
+
+.Hobo-First-Section--ImgCheeks{
+    position: absolute;
+    top: 35vh;
+    left: 55vw;
+    z-index: 3;
+    width: auto;
+    height: auto;
+}
+
+.Hobo-First-Section--ImgAlien{
+    position: absolute;
+    top: 33vh;
+    right: -10vw;
+    z-index: 3;
+    width: auto;
+    height: auto;
+}
+
+.Hobo-Second-Section{
+    background-color: black;
+    margin-top: -18px;
+    max-width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.Hobo-Second-Section--ImgDivisor{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    z-index: 0;
+}
+
+.Hobo-Normal-Txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Handform;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Hobo-Second-Section div{
+    background-image: url("../resources/images/Second-Section-Background.png");
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.Hobo-Second-Section iframe{
+    margin-top: 20px;
+    width: 65%;
+    height: 50%;
+}
+
+.Hobo-Third-Section{
+    background-image: url(../resources/images/Third-Section-Background.png);
+    background-size: cover;
+    position: relative;
+    height: 57vh;
+    width: 100%;
+    text-align: center;
+}
+
+.Hobo-Third-Section .Powerups{
+    padding-top: calc(25%);
+}
+
+.Hobo-Title-Background{
+    background-image: url(../resources/images/Title-Background.png);
+    background-size: cover;
+    position: absolute;
+    top: 3vh;
+    left: 28vw;
+    text-align: center;
+    width: 46vw;
+}
+.Hobo-Title-Txt{
+    font-family: Ziperhead;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.ImgPowerUps-Pegaucho{
+    width: calc(25%);
+    height: auto;
+    position: relative;
+    margin-right: 20px;
+}
+
+.ImgPowerUps-Naike{
+    width: calc(25%);
+    height: auto;
+    position: relative;
+}
+
+.ImgPowerUps-Vive10{
+    width: calc(25%);
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.ImgPowerUps-Brick{
+    width: calc(25%);
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.Hobo-Four-Section{
+    text-align: center;
+}
+
+.ImgTutorial{
+    width: 100%;
+}
+
+.ImgProfiles{
+    width: 100%;
+}
+
+
+@media(min-width: 600px){
+
+}

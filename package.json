@@ -1,0 +1,28 @@
+{
+  "name": "hobofight",
+  "version": "1.0.0",
+  "description": "HoboFight Web site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gawss/hoboweb.git"
+  },
+  "keywords": [
+    "Hobo",
+    "Fight",
+    "Web"
+  ],
+  "author": "Gawss @Dimitri Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gawss/hoboweb/issues"
+  },
+  "homepage": "https://github.com/Gawss/hoboweb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
