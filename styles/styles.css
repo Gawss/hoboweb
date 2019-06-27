@@ -71,7 +71,6 @@ body{
 
 .Hobo-Second-Section{
     background-color: black;
-    margin-top: -18px;
     max-width: 100%;
     height: fit-content;
     text-align: center;
@@ -81,10 +80,12 @@ body{
     width: 100%;
     height: auto;
     margin-top: -5px;
+    margin-bottom: -5px;
     z-index: 0;
 }
 
 .Hobo-Normal-Txt{
+    margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: Handform;
