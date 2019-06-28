@@ -12,7 +12,9 @@ body{
     margin: 0px;
 }
 .Hobo-Content{
-    max-width: calc(100%);
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
     height: fit-content;
 }
 
