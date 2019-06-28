@@ -110,6 +110,10 @@ body{
     height: 50%;
 }
 
+.Hobo-Second-Section div h4{
+    margin-top: 20px;
+}
+
 .Hobo-Third-Section{
     background-image: url(../resources/images/Third-Section-Background.png);
     background-size: cover;
@@ -172,14 +176,124 @@ body{
 }
 
 .ImgTutorial{
+    background: url(../resources/images/Tutorial.png) no-repeat content-box;
+    background-size: cover;
     width: 100%;
+    height: 70vh;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ImgProfiles{
-    width: 100%;
+    background: url(../resources/images/HoboProfiles.png) no-repeat;
+    background-size: cover;
+    height: 83vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 @media(min-width: 600px){
-
+    .Hobo-First-Section {
+        height: 94vh;
+    }
+    .Hobo-First-Section--ImgTitle {
+        top: 3vh;
+        left: auto;
+        right: 5%;
+        width: 53%;
+    }
+    .Hobo-First-Section--ImgChicken {
+        top: 62vh;
+        left: -7vw;
+        width: 20vw;
+    }
+    .Hobo-First-Section--ImgHobo {
+        top: 72vh;
+        left: 20vw;
+        width: 20vw;
+    }
+    .Hobo-First-Section--ImgCheeks {
+        top: 73vh;
+        left: 50vw;
+        width: 20vw;
+    }
+    .Hobo-First-Section--ImgAlien {
+        top: 62vh;
+        right: -8vw;
+        width: 20vw;
+    }
+    .Hobo-Normal-Txt {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        font-size: 28px;
+    }
+    .Hobo-Second-Section div {
+        height: fit-content;
+    }
+    .Hobo-Second-Section--ImgDivisor {
+        height: 28vh;
+    }
+    .Hobo-Second-Section iframe {
+        width: 65vw;
+        height: 70vh;
+    }
+    .Hobo-Second-Section div h4{
+        margin-top: 5vh;
+    }
+    .Hobo-Third-Section {
+        height: 75vh;
+    }
+    .Hobo-Title-Background {
+        width: 35vw;
+        height: 17vh;
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+    }
+    .Hobo-Title-Txt {
+        margin-top: 65px;
+        position: absolute;
+        font-size: 65px;
+        left: 25%;
+    }
+    .Hobo-Third-Section .Powerups {
+        display: flex;
+        padding-top: 10vh;
+        position: relative;
+    }
+    .Hobo-Third-Section .Powerups div{
+        width: 100%;
+    }
+    .ImgPowerUps-Pegaucho {
+        width: calc(35%);
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+    .ImgPowerUps-Naike {
+        width: calc(35%);        
+        position: relative;
+    }
+    .ImgPowerUps-Vive10 {
+        width: calc(35%);     
+        margin-top: 0px;
+        margin-right: 10vh;
+    }
+    .ImgPowerUps-Brick {
+        width: calc(35%);     
+        margin-top: 0px;
+    }
+    .ImgTutorial{
+        background: url(../resources/images/TutorialHD.png) no-repeat;
+        background-size: cover;
+        height: 32vw;
+        margin-bottom: 6vh;
+    }
+    .ImgProfiles{
+        background: url(../resources/images/HoboProfilesHD.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 88vh;
+    }
 }
