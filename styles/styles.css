@@ -186,13 +186,24 @@ body{
 }
 
 .ImgProfiles{
-    background: url(../resources/images/HoboProfiles.png) no-repeat;
-    background-size: cover;
-    height: 83vh;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
+.SplashImg{
+    width: 100%;
+}
+.SplashImg-SecretCh1{
+    width: 100%;
+}
+.SplashImg-SecretCh2{
+    display: none;
+}
+.SplashImg-SecretCh3{
+    display: none;
+}
 
 @media(min-width: 600px){
     .Hobo-First-Section {
@@ -291,9 +302,22 @@ body{
         margin-bottom: 6vh;
     }
     .ImgProfiles{
-        background: url(../resources/images/HoboProfilesHD.png) no-repeat;
-        background-size: cover;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20vh;
+    }
+    .SplashImg-SecretCh1{
+        display: unset;
         width: 100%;
-        height: 89vh;
+    }
+    .SplashImg-SecretCh2{
+        display: unset;
+        width: 100%;
+    }
+    .SplashImg-SecretCh3{
+        display: unset;
+        width: 100%;
     }
 }
