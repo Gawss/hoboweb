@@ -363,6 +363,7 @@ body{
     }
     .ImgTutorial{
         background: url(../resources/images/TutorialHD.png) no-repeat;
+        background-size: contain;
         margin-left: 100px;
         margin-right: 100px;
     }
