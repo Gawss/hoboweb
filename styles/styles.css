@@ -11,6 +11,11 @@
 body{
     margin: 0px;
 }
+
+.black{
+    color: rgb(41, 41, 41) !important;  
+}
+
 .Hobo-Content{
     max-width: 100%;
     position: relative;
@@ -173,16 +178,19 @@ body{
 
 .Hobo-Four-Section{
     text-align: center;
+    height: 70vh;
+    padding: 1%;
 }
 
 .ImgTutorial{
     background: url(../resources/images/Tutorial.png) no-repeat content-box;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    margin-top: 6vh;
-    margin-left: auto;
-    margin-right: auto;
+    background-size: contain;
+    height: 100%;
+    display: block;
+}
+
+.Hobo-Fifth-Section{
+    text-align: center;
 }
 
 .ImgProfiles{
@@ -205,6 +213,61 @@ body{
     display: none;
 }
 
+.Hobo-Sixth-Section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.SplashImg-GGJImg{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SplashImg-IndiePrizeImg{
+    width: 170px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Hobo-Contact-Section{
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Hobo-Contact-Title-Txt{
+    display: block;
+    border-bottom: solid 1px rgba(0,0,0,0.4);
+    padding: 5px;
+    width: 50vw;
+    margin: 0 auto;    
+    font-family: Ziperhead;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.Hobo-Contact-Info{
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+.Hobo-Normal-Txt-Barlow{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
 @media(min-width: 600px){
     .Hobo-First-Section {
         height: 94vh;
@@ -295,11 +358,13 @@ body{
         width: calc(35%);     
         margin-top: 0px;
     }
+    .Hobo-Four-Section{
+        height: 60vh;
+    }
     .ImgTutorial{
         background: url(../resources/images/TutorialHD.png) no-repeat;
-        background-size: cover;
-        height: 32vw;
-        margin-bottom: 6vh;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .ImgProfiles{
         grid-template-columns: 25% 25% 25% 25%;
@@ -319,5 +384,34 @@ body{
     .SplashImg-SecretCh3{
         display: unset;
         width: 100%;
+    }
+
+    .Hobo-Sixth-Section{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .SplashImg-GGJImg{
+        width: 19vw;
+        height: 19vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 100px;
+    }
+    
+    .SplashImg-IndiePrizeImg{
+        width: 25vw;
+        height: 25vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 100px;
+    }
+
+    .Hobo-Contact-Title-Txt{
+        font-size: 50px;
+    }
+
+    .Hobo-Normal-Txt-Barlow{
+        font-size: 18px;
     }
 }
