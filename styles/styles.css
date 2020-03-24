@@ -271,10 +271,16 @@ body{
 }
 
 .ItchWidget{
-    position: absolute;
+    position: relative;
     top: 2%;
-    left: 1%;
+    width: 100%;
 }
+.ItchWidget :first-child{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
 @media(min-width: 600px){
     .Hobo-First-Section {
         height: 94vh;
@@ -420,5 +426,12 @@ body{
 
     .Hobo-Normal-Txt-Barlow{
         font-size: 18px;
+    }
+
+    .ItchWidget{
+        position: absolute;
+        width: fit-content;
+        top: 2%;
+        left: 1%;
     }
 }
