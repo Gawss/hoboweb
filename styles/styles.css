@@ -240,7 +240,7 @@ body{
 .Hobo-Contact-Section{
     position: relative;
     /* display: flex; */
-    height: 25vh;
+    height: 10vh;
     width: 100%;
     text-align: center;
     padding-top: 20px;
@@ -272,8 +272,11 @@ body{
 
 .ItchWidget{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     top: 2%;
-    width: 100%;
+    width: fit-content;
 }
 .ItchWidget :first-child{
     width: 90%;
@@ -418,6 +421,9 @@ body{
         margin-top: auto;
         margin-bottom: auto;
         margin-right: 100px;
+    }
+    .Hobo-Contact-Section{
+        height: 25vh;
     }
 
     .Hobo-Contact-Title-Txt{
